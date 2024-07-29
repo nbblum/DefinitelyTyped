@@ -119,7 +119,7 @@ declare namespace approuter {
         extensions?: Extensions[];
 
         /**  An object representing the content which is usually put in xs-app.json file. If this property is present it will take precedence over the content of xs-app.json. */
-        xsAppConfig?: ComSapXsappSchema_82;
+        xsappConfig?: ComSapXsappSchema_82;
 
         /**
          * Options similar to [https.createServer](https://nodejs.org/api/https.html#https_https_createserver_options_requestlistener).
